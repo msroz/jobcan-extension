@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+  width: 24rem;
+  height: 18rem;
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  background-color: #F5F6FA;
+  color: rgb(48, 57, 66);
+}
+h1,h2 {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+button {
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ec6be;
+  border: 1px solid #2ec6be;
+  border-radius: 4px;
+  padding: 0 15px;
+  height: 36px;
+  min-width: 72px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  margin: .5rem;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  height: 36px;
+  padding: 4px 8px;
+  margin: .5rem auto;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+}
+input:focus {
+  outline: 1px #2ec6be solid;
+  border-radius: 4px;
+}
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li:before {
+  content: '📌';
+}
+.container {
+  font-size: 1.2rem;
+  margin: .1rem;
+  padding: .1rem;
+}
+.section {
+  margin: .2rem;
+}
+.subtitle {
+  font-size: .4rem;
+}
+.actions {
+  margin: 0 auto;
+  text-align: center;
+}
+.form-item {
+  margin: 0 0 .5rem;
+}
+button.full {
+  width: 100%;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>JOBCANTAN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  <div id="setting" class="container">
+    <h1>⏰ JOBCANTAN <small>- さくっと勤怠月次締め</small></h1>
+    <section class="section">
+      <h2>⚙️ 設定 </h2>
+      <p class="subtitle">一括入力する値を保存しましょう</p>
+      <form id="settingForm" action="">
+        <input type="text"  name="startsAt" placeholder="出勤時刻(例 10:00)" />
+        <input type="text" name="endsAt" placeholder="退勤時刻(例 20:00)" />
+        <input type="text" name="restTime" placeholder="休憩時間(例 01:00)" />
+        <!--div class="form-item">
+          <input id="exclude-standard" type="radio" name="exclude" value="1"><label for="exclude-standard">土・日休み</label>
+          <input id="exclude-agent" type="radio" name="exclude" value="2"><label for="exclude-agent">火・水休み</label>
+        </div-->
+
+        <div class="actions">
+          <button type="button" id="trigger-save">保存</button>
+          <button type="button" id="trigger-clear">クリア</button>
+        </div>
+      </form>
+    </section>
+    <section class="section">
+      <h2>🖌 処理 </h2>
+      <p class="subtitle">
+        <a href="https://ssl.jobcan.jp/employee/attendance/edit" target=_blank rel="noopener noreferrer">
+          ジョブカン
+        </a>を開いてから一括入力ボタンを押して勤怠を入力しましょう
+      </p>
+      <button id="trigger-input" type="button" class="full">一括入力</button>
+    </section>
+    <section class="section">
+      <h2>🔗 リンク</h2>
+      <p class="subtitle">困ったときのリンク集</p>
+      <ul>
+        <li>
+          <a href="https://jobcan.ne.jp/" target=_blank rel="noopener noreferrer">ジョブカンHP</a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/spreadsheets/d/1KApTUgCsgqIhKjkYV35RpIXco4etDJMdsZ0MQsEYRC0/edit#gid=22460719" target=_blank rel="noopener noreferrer">スプレッドシート - ジョブカン利用マニュアル</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  </body>
+</html>
